@@ -1,0 +1,59 @@
+# Static analysis configuration.
+#
+# CI runs `flutter analyze --fatal-infos`, so everything below is a build
+# failure rather than a suggestion. The extra rules exist to hold the
+# standards an audit pass established — import order, no stray print
+# statements, no hardcoded strings drifting away from the theme — so they
+# cannot quietly regress.
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-raw-types: true
+  errors:
+    # An unused import or local is a mistake, not a note.
+    unused_import: error
+    unused_local_variable: error
+    unused_field: error
+    dead_code: error
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+
+linter:
+  rules:
+    # --- Correctness -----------------------------------------------------
+    always_declare_return_types: true
+    avoid_empty_else: true
+    avoid_slow_async_io: true
+    cancel_subscriptions: true
+    close_sinks: true
+    no_adjacent_strings_in_list: true
+    unnecessary_statements: true
+
+    # --- Async safety ----------------------------------------------------
+    # Every dialog in this app awaits a result and then touches context;
+    # these two keep that pattern honest.
+    unawaited_futures: true
+    use_build_context_synchronously: true
+
+    # --- Consistency -----------------------------------------------------
+    # Locks in the import ordering normalised during the audit.
+    directives_ordering: true
+    prefer_single_quotes: true
+    sort_child_properties_last: true
+    unnecessary_parenthesis: true
+    unnecessary_string_interpolations: true
+
+    # --- Flutter ---------------------------------------------------------
+    avoid_unnecessary_containers: true
+    sized_box_for_whitespace: true
+    use_colored_box: true
+    use_decorated_box: true

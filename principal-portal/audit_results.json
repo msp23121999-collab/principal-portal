@@ -1,0 +1,630 @@
+{
+  "rbac": {
+    "test1": {
+      "status": 200,
+      "body": "[{\"total_students\":\"10\",\"total_faculty\":\"11\",\"total_departments\":\"6\",\"average_attendance_percent\":\"100.00\",\"average_cgpa\":\"8.60\",\"top_performer_count\":\"6\",\"at_risk_count\":\"0\",\"pending_approvals\":\"10\",\"total_placed\":\"10\",\"average_package_lpa\":\"7.50\",\"highest_package_lpa\":\"7.50\",\"latest_pass_percent\":\"92.00\",\"latest_semester_label\":\"Semester 1\"}]"
+    },
+    "test2": {
+      "status": 403,
+      "body": "{\"success\":false,\"error\":\"Forbidden: Principal access required for this schema\"}"
+    },
+    "test3": {
+      "status": 500,
+      "body": "{\"success\":false,\"error\":\"invalid input syntax for type json\"}"
+    },
+    "test4": {
+      "status": 200,
+      "body": "[]"
+    }
+  },
+  "routeResults": [
+    {
+      "route": "/#/dashboard",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/institution-overview",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/academic-performance",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/result-analytics",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/department-performance",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/faculty-performance",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/student-performance",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/attendance-analytics",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/examination-monitoring",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/research-innovation",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/scholarships",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/placement-dashboard",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/approvals",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/circulars",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/meetings-calendar",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/reports-analytics",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/audit-compliance",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/notifications",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/my-profile",
+      "viewport": "1440x900",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/dashboard",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/institution-overview",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/academic-performance",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/result-analytics",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/department-performance",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/faculty-performance",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/student-performance",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/attendance-analytics",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/examination-monitoring",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/research-innovation",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/scholarships",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/placement-dashboard",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/approvals",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/circulars",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/meetings-calendar",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/reports-analytics",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/audit-compliance",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/notifications",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/my-profile",
+      "viewport": "1024x768",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/dashboard",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/institution-overview",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/academic-performance",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/result-analytics",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/department-performance",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/faculty-performance",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/student-performance",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/attendance-analytics",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/examination-monitoring",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/research-innovation",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/scholarships",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/placement-dashboard",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/approvals",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/circulars",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/meetings-calendar",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/reports-analytics",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/audit-compliance",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/notifications",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/my-profile",
+      "viewport": "768x1024",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/dashboard",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/institution-overview",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/academic-performance",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/result-analytics",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/department-performance",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/faculty-performance",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/student-performance",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/attendance-analytics",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/examination-monitoring",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/research-innovation",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/scholarships",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/placement-dashboard",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/approvals",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/circulars",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/meetings-calendar",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/reports-analytics",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/audit-compliance",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/notifications",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    },
+    {
+      "route": "/#/my-profile",
+      "viewport": "375x812",
+      "status": "PASS",
+      "consoleErrors": 0,
+      "pageErrors": 0,
+      "failedRequests": 0
+    }
+  ]
+}

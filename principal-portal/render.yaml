@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: ksrce-principal-api
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: CORS_ORIGINS
+        value: https://ksrce-principal-portal.web.app,https://ksrce-principal-portal.firebaseapp.com
+      - key: ALLOW_RAW_SQL
+        value: "false"
+      - key: API_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false

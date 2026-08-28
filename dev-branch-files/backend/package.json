@@ -1,0 +1,33 @@
+{
+  "name": "erp_unified",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "inspect:schema": "tsx src/database/inspect-schema.ts",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.15.0",
+    "@types/pg": "^8.23.1",
+    "firebase-tools": "^13.29.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.2.0",
+    "pg": "^8.22.0",
+    "zod": "^3.24.3"
+  }
+}

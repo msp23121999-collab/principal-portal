@@ -1,0 +1,29 @@
+export enum TimetableStatus {
+  DRAFT = 'DRAFT',
+  PENDING_HOD = 'PENDING_HOD',
+  APPROVED_HOD = 'APPROVED_HOD',
+  PENDING_PRINCIPAL = 'PENDING_PRINCIPAL',
+  RELEASED = 'RELEASED',
+  REJECTED = 'REJECTED',
+}
+
+export enum LeaveStatus {
+  PENDING_HOD = 'PENDING_HOD',
+  APPROVED = 'APPROVED',
+  REJECTED = 'REJECTED',
+}
+
+export enum AttendanceStatus {
+  PRESENT = 'PRESENT',
+  ABSENT = 'ABSENT',
+  OD = 'OD',
+  LATE = 'LATE',
+  MEDICAL = 'MEDICAL',
+}
+
+export enum MarksStatus {
+  DRAFT = 'DRAFT',
+  SUBMITTED = 'SUBMITTED',
+  APPROVED = 'APPROVED',
+  PUBLISHED = 'PUBLISHED',
+}
